@@ -5,4 +5,10 @@ environment:
   sdk: '>=2.17.0 <3.0.0'
 
 dependencies:
+  flutter:
+    sdk: flutter
   serverpod_client: ^1.0.1
+  serverpod_flutter: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

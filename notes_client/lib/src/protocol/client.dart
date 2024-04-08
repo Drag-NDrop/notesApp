@@ -52,7 +52,7 @@ class Client extends _i1.ServerpodClient {
   }) : super(
           host,
           _i5.Protocol(),
-          context: context,
+          securityContext: context,
           authenticationKeyManager: authenticationKeyManager,
         ) {
     notes = _EndpointNotes(this);
